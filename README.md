@@ -57,12 +57,12 @@ These are derived conclusions after completing our data visualisation phase.
 - The vast majority of the wine has a `quality` score of 6, while less numbers has a `quality`
 score of 9.
 - Using correlation plot, we can easily see if certain attributes are correleated more strongly to wine quality than some others.
--- Strong correlated attributes:
-  - `alcohol` and `quality`, and it's clear that this is the highest relation that affets wine quality.
--- Weak correlated attributes(do not depend on each other):
-  - `density` and `alcohol`.
-  - `free.sulphur.dioxide` and `citric.acid` has almost no correlation with quality
--- `density` has strong positive correlation with `residual.sugar` and strong negative correlation with `alcohol`.
+  - Strong correlated attributes:
+    - `alcohol` and `quality`, and it's clear that this is the highest relation that affets wine quality.
+  - Weak correlated attributes(do not depend on each other):
+    - `density` and `alcohol`.
+    - `free.sulphur.dioxide` and `citric.acid` has almost no correlation with quality.
+  - `density` has strong positive correlation with `residual.sugar` and strong negative correlation with `alcohol`.
 
 
 **Q2: Is a certain type of wine (red or white) associated with higher quality?**
